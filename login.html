@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+   font-family: 'Segoe UI',sans-serif;
+   background-color: cyan
+}
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+   width: 100%;
+   font-size: 28px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: white;
+}
+label{
+   font-size: 15px;
+}
+input[type=text]:focus, input[type=password]:focus {
+   background-color: #78FF93;
+   outline: none;
+}
+hr {
+   border: 1px solid white;
+   margin-bottom: 25px;
+}
+button {
+   font-size: 10px;
+   font-weight: bold;
+   background-color: green;
+   color: white;
+   padding: 10px 15px;
+   margin: 8px 0;
+   width: 30%;
+   height: 3rem;
+   border: 5px;
+   cursor: pointer;
+
+   opacity: 0.9;
+}
+button:hover {
+   opacity:1;
+}
+.cancel {
+   padding: 10px 20px;
+   background-color: #ff3d2f;
+}
+.formContainer {
+   padding: 16px;
+}
+.formContainer p{
+   font-size: 15px;
+}
+</style>
+<body>
+<form>
+<div class="formContainer">
+<h1>Login Page</h1>
+<hr>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+<label for="password"><b>Password</b></label>
+
+<input type="password" placeholder="Your Password" name="Your Password"
+required>
+
+<label>
+<input type="checkbox" checked="checked" name="remember" style="marginbottom: 15px"> Remember me
+</label>
+<br>
+<br>
+
+
+
+<div>
+  <center>
+    <button type="button" class="Login">Login</button>
+    </div>
+  </center>
+
+</form>
+</body>
+</html>
